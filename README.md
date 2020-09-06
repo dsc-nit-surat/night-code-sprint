@@ -15,9 +15,9 @@
 
 **Be sure to follow these**
 
-- Use the discord channel for communication
+- Use the <a href="https://discord.com/invite/t67Tcrj" target="_blank">discord channel</a> for communication
 - We will provide a GitHub repo on the DSC github page
-- Your project folder should be uploaded in the repo
+- Your project folder should be uploaded in that repo
 
 
 **Tips**
@@ -38,3 +38,4 @@ Reach out to us at one of the following places!
 - Twitter at <a href="https://twitter.com/dscnit?lang=en" target="_blank">`@DscNit`</a>
 - Instagram at <a href="https://www.instagram.com/dsc_nitsurat/?hl=en" target="_blank">`@dsc_nitsurat`</a>
 - Facebook at <a href="https://www.facebook.com/dscnitsurat/" target="_blank">`dscnitsurat`</a>
+- Discord at <a href="https://discord.com/invite/t67Tcrj" target="_blank">`DSC NIT SURAT`</a>
