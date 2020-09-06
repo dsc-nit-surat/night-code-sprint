@@ -1,4 +1,4 @@
-<img src="night-code-sprint.png" title="dscnitsurat" alt="Night Code Sprint">
+<img src="images/night-code-sprint.png" title="dscnitsurat" alt="Night Code Sprint">
 
 
 # DSC NIT Surat Night Code Sprint
@@ -9,6 +9,7 @@
 
 > There will be some fun sessions as well
 
+---
 
 ## Instructions
 
@@ -27,34 +28,15 @@
 
 ---
 
-## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
-
----
-
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
-
----
-
 ## Support
 
-Reach out to me at one of the following places!
+<img src="images/dsc.jpg" title="dscnitsurat" alt="DSC NIT Surat">
 
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
+Reach out to us at one of the following places!
+
+- Website at <a href="https://dsc-nitsurat.herokuapp.com/" target="_blank">`dsc-nitsurat.herokuapp.com`</a>
+- Twitter at <a href="https://twitter.com/dscnit?lang=en" target="_blank">`@DscNit`</a>
+- Instagram at <a href="https://www.instagram.com/dsc_nitsurat/?hl=en" target="_blank">`@dsc_nitsurat`</a>
+- Facebook at <a href="https://www.facebook.com/dscnitsurat/" target="_blank">`dscnitsurat`</a>
 
 ---
