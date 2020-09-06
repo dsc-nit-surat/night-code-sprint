@@ -2,6 +2,7 @@
 
 
 # DSC NIT Surat Night Code Sprint
+> You code 'cause you want to explore and grow and with this, you certainly will.
 
 **It will go on for 24 hours**
 
@@ -9,7 +10,6 @@
 
 - There will be some fun sessions as well
 
----
 
 ## Instructions
 
@@ -19,6 +19,10 @@
 - For the project you're creating with your respective team, create a repo and within the repo create a folder with your team name and upload all the instructions and code within that folder itself. 
 - While submitting, make sure to create a PR to our master branch first.
 
+### Upcoming Instructions
+- There are various tech tracks on which you can build your solutions.
+- If you're unable to come up with solving any problem, you'll be provided with 4 to 5 problem statements that are optional to work on. 
+
 
 **Tips**
 
@@ -26,7 +30,8 @@
 - IT IS A GREAT WAY TO SHOW YOUR SKILLS
 - HAVE FUN!
 
----
+## Rewards & Judgement Criteria
+Yet to be decided but this event will be full of sessions, exploration, and growing your skills, I can be sure on that.
 
 ## Support
 
