@@ -1,4 +1,4 @@
-<a href="https://dsc-nitsurat.herokuapp.com/"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="dscnitsurat" alt="FVCproductions"></a>
+<img src="night-code-sprint.png" title="dscnitsurat" alt="Night Code Sprint">
 
 
 # DSC NIT Surat Night Code Sprint
