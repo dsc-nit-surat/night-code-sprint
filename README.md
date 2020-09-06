@@ -16,8 +16,8 @@
 **Be sure to follow these**
 
 - Use the <a href="https://discord.com/invite/t67Tcrj" target="_blank">discord channel</a> for communication
-- We will provide a GitHub repo on the DSC github page
-- Your project folder should be uploaded in that repo
+- For the project you're creating with your respective team, create a repo and within the repo create a folder with your team name and upload all the instructions and code within that folder itself. 
+- While submitting, make sure to create a PR to our master branch first.
 
 
 **Tips**
