@@ -20,15 +20,27 @@
 - While submitting, make sure to create a PR to our master branch first.
 
 ### Upcoming Instructions
-- There are various tech tracks on which you can build your solutions.
 - If you're unable to come up with solving any problem, you'll be provided with 4 to 5 problem statements that are optional to work on. 
+- The timeline will be added soon! Stay updated!
 
 
 **Tips**
 
-- YOU ARE FREE TO MAKE ANYTHING YOU WANT
-- IT IS A GREAT WAY TO SHOW YOUR SKILLS
-- HAVE FUN!
+- **You Are Free TO Develop Anythin You Want**
+- **It Is A Great Way To Show Your Skills**
+- **Have Fun!**
+
+## Tracks
+1. Blockchain
+2. AI - ML
+3. Algorithms
+4. AR - VR
+5. Computer Vision
+6. Women In Safety
+7. Fin-Tech
+8. Future Mobility
+9. Healthcare
+10. Open Innovation
 
 ## Rewards & Judgement Criteria
 Yet to be decided but this event will be full of sessions, exploration, and growing your skills, I can be sure on that.
