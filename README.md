@@ -10,6 +10,8 @@
 
 - There will be some fun sessions as well
 
+## Timeline 
+![Timeline](images/timeline-ncs.jpeg)
 
 ## Instructions
 
