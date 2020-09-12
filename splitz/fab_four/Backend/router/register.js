@@ -6,7 +6,6 @@ require("../config/user-passport")(passport);
 
 // Load input validation
 const validateRegisterInput = require("./../validation/register")
-const validateLoginInput = require("./../validation/login");
 
 // Load User Model
 const User = require("./../Mongoose-models/User")
