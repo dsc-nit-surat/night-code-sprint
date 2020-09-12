@@ -9,9 +9,10 @@ mongoose.connect("mongodb+srv://admin:fab_four@cluster0.rhxth.gcp.mongodb.net/fa
 mongoose.set('useFindAndModify', false);
 
 // Router files
-const dashboard = require("./router/dashboard");
-const register = require("./router/register");
-const login = require("./router/login");
+const dashboard = require("./Backend/router/dashboard");
+const register = require("./Backend/router/register");
+const login = require("./Backend/router/login");
+
 // Initialising app
 const app = express();
 
@@ -23,7 +24,6 @@ app.use(express.json());
 
 // Initialising router
 app.use("/api/dashboard/",dashboard);
-// app.use("/api/cart/",cart);
 app.use("/api/register/",register)
 app.use("/api/login/",login)
 
