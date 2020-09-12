@@ -18,12 +18,25 @@ const UserSchema = new mongoose.Schema({
     type: Date,
     default: Date.now
   },
-  friends: {
-    type: Array,
-  },
-  transaction: {
-   type: Array,
-  }
+  friends: [{
+    user_id = {
+      type : String
+    }
+  }],
+  transaction: [{
+    user_id : {
+      type : String,
+      required : true
+    },
+    amount : {
+      type : Number,
+      required : true
+    },
+    Date : {
+      type : Date,
+      default : Date.now
+    }
+  }]
 });
 
 module.exports = User = mongoose.model('user', UserSchema);
