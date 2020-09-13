@@ -25,19 +25,19 @@ body{
   color:#666;
 }
 .login-form a:hover{
-  color:#723dbe;
+  color:#382933;
 }
 .forgot-link{
   font-size: 13px;
 }
 
 .form-control:focus{
-  border-color:#723dbe;
+  border-color: #382933;
   box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
 }
 .btn-custom{
-  background: #723dbe;
-  border-color:#723dbe;
+  background: #4C4C4C;
+  border-color: #4C4C4C;
   color:#fff;
   font-size: 15px;
   font-weight: 600;
@@ -47,8 +47,8 @@ body{
 .btn-custom:hover,
 .btn-custom:active,
 .btn-custom:active:focus{
-  background: #54229d;
-  border-color: #54229d;
+  background: #382933;
+  border-color: #382933;
   color:#fff;
 }
 .btn-custom:focus{
