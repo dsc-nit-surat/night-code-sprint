@@ -41,7 +41,7 @@ router.post("/register", function(req, res){
 
 // show register form
 router.get("/login", function(req, res){
-    res.send("login"); 
+    res.render("login"); 
  });
  
  //handle sign up logic
@@ -55,7 +55,7 @@ router.get("/login", function(req, res){
         } else {
             if (user){
                 if (user.password === password){
-                    res.send("dashboard")
+                    res.render("dashboard")
                 }
                 res.send("login")
             } else {
