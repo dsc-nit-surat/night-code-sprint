@@ -1,6 +1,6 @@
 # Project: Private-chat-room "WHISPER"
 ## Team: Devarriors
-### Team Member: Prashant Dodiya (U19EC024)
+### Team Member: Prashant Dodiya (U19EC026)
 #### Problem Statement
 	Each one of us might have experienced that our idea got stolen and with all the credits which we deserved.
 	Someone just came in from nowwhere and stole our idea. That's not fair, right! 
