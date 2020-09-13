@@ -9,7 +9,7 @@ router.get("/", function(req, res){
 
 // show register form
 router.get("/register", function(req, res){
-   res.send("register"); 
+   res.render("register"); 
 });
 
 //handle sign up logic
@@ -30,10 +30,10 @@ router.post("/register", function(req, res){
             console.log(err);
         } else {
             if (user){
-                res.send("register")
+                res.render("register")
             } else {
                 newUser.save()
-                res.send("dashboard")
+                res.render("dashboard")
             }
         }
     })
