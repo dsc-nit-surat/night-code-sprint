@@ -26,7 +26,10 @@ const UserSchema = new mongoose.Schema({
   Notification : [
     {
       Content : {type : String},
-      date : Date.now
+      date : {
+        type : Date,
+        default : Date.now
+      }
     }
   ]
   ,
