@@ -68,18 +68,25 @@ var express = require("express"),
   passport = require("passport"),
   User = require("./Backend/Mongoose-model/User");
 
-mongoose.connect("mongodb+srv://admin:fab_four@cluster0.rhxth.gcp.mongodb.net/fab_four")
-          .then(console.log("Mongo DB connected"));
+// Connecting mongoose
+mongoose.connect("mongodb+srv://admin:fab_four@cluster0.rhxth.gcp.mongodb.net/fab_four",{ useNewUrlParser: true,useUnifiedTopology: true },() => console.log("MongoDB connected"))
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));        
 
-const home = require("./Backend/router/register");
+const root = require("./Backend/router/Index");
 
-app.use("/", home);
-// app.use("/login", login);
+app.get("/" ,(req,res) => {
+    res.send("Home");
+})
+
+app.use("/", root);
 // app.use("/register", register);
 // app.use("/dashboard", dashboard);
 // app.use("/notification", notification);
+port = process.env.PORT || 5000;
+app.listen(port, (req,res) => {
+        console.log("Server is running on port " + port);
+    });
