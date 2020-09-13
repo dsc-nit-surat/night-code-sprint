@@ -49,15 +49,19 @@ router.get("/login", function(req, res){
         var email = req.body.email;
         var password = req.body.password
         var newUser = new User(email);
-     User.register({email : email}, req.body.password, function(err, user){
-         if(err){
-             console.log(err);
-             
-             return res.render("register");
-         }
-         else{ if(User) {
-             res.render("login");
-         }};
+     User.findOne({email : email}, function(err, user){
+        if (err){
+            console.log(err);
+        } else {
+            if (user){
+                if (user.password === password){
+                    res.send("dashboard")
+                }
+                res.send("login")
+            } else {
+                res.send("login")
+            }
+        }
      });
  });
  
