@@ -1,0 +1,14 @@
+{
+    "login" : {
+        "email" : "u69420@gmail.com",
+        "pwd" : "M nhi bataunga"
+    },
+    "team" : {
+        "DLD-Theory" : "abc",
+        "Test" : "xyz",
+        "NSA" : "lmnopqrs"
+    },
+    "bot" : {
+        "token" : "Discord token here"
+    }
+}
