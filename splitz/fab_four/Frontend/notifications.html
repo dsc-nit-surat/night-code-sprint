@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Home | Splitz</title>
+    <title>Notifications | Splitz</title>
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -21,7 +21,7 @@
             <a class="navbar-brand mr-auto" href="index.html">&nbsp&nbspSplitz</a>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="notifications.html"><i class="fa fa-envelope fa-lg"></i><sup class="noti">29</sup> Notifications</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="notifications.html"><i class="fa fa-envelope fa-lg"></i><sup class="noti">29</sup> Notifications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-user fa-lg"></i> My Profile</a></li>
                 </ul>
             </div>
@@ -41,52 +41,35 @@
 
     <div class="container">
         <div class="row row-content">
-            <div class="col-12 col-md-5">
-                <h2>Borrowers</h2><a class="add" href="add.html">Add <i class="fa fa-plus"></i></a></h5><hr style="background-color: #C8D5B9;">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h3>Notifications</h3><hr style="background-color: #C8D5B9;">
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <tbody>
-                                <tr>
-                                    <td class="cont text-left">Naman Khater</td>
-                                    <td class="cont text-right">₹200</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left"></td>
-                                    <td class="text-right"><button type="submit" class="btn btn-primary btn-md">Ask to pay</button></td>
-                                </tr>
-                                <tr>
-                                    <td class="cont text-left">Hiren Dhadhal</td>
-                                    <td class="cont text-right">₹480</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left"></td>
-                                    <td class="text-right"><button type="submit" class="btn btn-primary btn-md">Ask to pay</button></td>
-                                </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-12 col-md-5 ml-auto">
-                <h2>Lenders</h2><hr style="background-color: #C8D5B9;">
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <tbody>
-                                <tr>
-                                    <td class="cont text-left">Hardik Tulsiani</td>
-                                    <td class="cont text-right">₹500</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left"><button type="submit" class="btn btn-secondary btn-md">Already Paid</button></td>
-                                    <td class="text-right"><button type="submit" class="btn btn-primary btn-md">Pay Now</button></td>
-                                </tr>
-                                <tr>
-                                    <td class="cont text-left">Utsav Chordia</td>
-                                    <td class="cont text-right">₹1000</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left"><button type="submit" class="btn btn-secondary btn-md">Already Paid</button></td>
-                                    <td class="text-right"><button type="submit" class="btn btn-primary btn-md">Pay Now</button></td>
-                                </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; has asked you to pay &lt;amount&gt;</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left"><button class="btn btn-secondary btn-md">Ask for time</button></td>
+                                <td class="text-center"><button class="btn btn-success btn-md">Already paid</button></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Pay Now</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; has asked for more time</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Okay</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; claims he has already cleared his debt</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Okay</button></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
