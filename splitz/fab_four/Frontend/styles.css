@@ -43,3 +43,30 @@ body {
     padding: 4px 4px 4px 4px;
     font-size: 60%;
 }
+
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.fon {
+    font-family: "Bebas Neue";
+}
+
+#head {
+    font-size: 400%;
+}
+
+#des {
+    font-size: 150%;
+}
+
+.add {
+    color: #4C4C4C;
+}
+
+.add:hover {
+    color: black;
+    text-decoration: none;
+}

@@ -2,8 +2,15 @@
 // const express = require("express");
 // const bodyParser = require("body-parser");
 
+<<<<<<< HEAD
 // // Connecting mongoose
 // mongoose.connect("mongodb+srv://admin:fab_four@cluster0.rhxth.gcp.mongodb.net/fab_four",{ useNewUrlParser: true,useUnifiedTopology: true },() => console.log("MongoDB connected"))
+=======
+
+
+// // Connecting mongoose
+// mongoose.connect("mongodb+srv://admin:fab_four@cluster0.rhxth.gcp.mongodb.net/fab_four" + database,{ useNewUrlParser: true,useUnifiedTopology: true },() => console.log("MongoDB connected"))
+>>>>>>> f10bde3804d1f7cb707f1da48015f57890deb5ec
 // mongoose.set('useFindAndModify', false);
 
 // // Router files
@@ -11,6 +18,7 @@
 // const register = require("./Backend/router/register");
 // const login = require("./Backend/router/login");
 
+<<<<<<< HEAD
 // // import User model
 // const User = require("./Backend/Mongoose-model/User")
 
@@ -22,6 +30,13 @@
 // app.use(bodyParser.urlencoded({extended: true}));
 // app.use(express.static("public"));
 
+=======
+// // Initialising app
+// const app = express();
+
+// // Setting bodyParser
+// app.use(bodyParser.urlencoded({extended : true}))
+>>>>>>> f10bde3804d1f7cb707f1da48015f57890deb5ec
 
 // // Parsing JSON
 // app.use(express.json());
@@ -32,6 +47,7 @@
 // app.use("/api/login/",login)
 
 // app.get("/",(req,res) => {
+<<<<<<< HEAD
 //     User.find({} , (err, users) => {
 //         if (err){console.log(err)}
 //     else{
@@ -51,6 +67,8 @@
 //       }
 //     })
 //     console.log()
+=======
+>>>>>>> f10bde3804d1f7cb707f1da48015f57890deb5ec
 //     res.send("hello")
 // });
 
