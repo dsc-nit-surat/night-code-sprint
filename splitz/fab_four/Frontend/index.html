@@ -7,21 +7,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Splitz</title>
-
-    <style>
-        .navbar-dark {
-            background-color: #4C4C4C;
-        }
-        .navbar-brand {
-            font-size: 200%;
-        }
-
-        .counter .counter-lg {
-            top = -24px !important;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -32,14 +20,65 @@
             <a class="navbar-brand mr-auto" href="index.html">&nbsp&nbspSplitz</a>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"><span class="counter counter-lg"><sup>1</sup></span></i> Notifications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">My Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"></i><sup class="noti">29</sup> Notifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-user fa-lg"></i> My Profile</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Splitz</h1>
+                    <p>Splitting your money has never been simpler</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 col-md-5">
+                <h2>Borrowers</h2><hr style="background-color: #C8D5B9;">
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <tbody>
+                                <tr>
+                                    <td class=" cont text-left">Naman Khater</td>
+                                    <td class=" cont text-right">200</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left"></td>
+                                    <td class="text-right"><button type="submit" class="btn btn-primary btn-md">Ask to pay</button></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 ml-auto">
+                <h2>Lenders</h2><hr style="background-color: #C8D5B9;">
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <tbody>
+                                <tr>
+                                    <td class=" cont text-left">Hardik Tulsiani</td>
+                                    <td class=" cont text-right">500</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left"><button type="submit" class="btn btn-secondary btn-md">Already Paid</button></td>
+                                    <td class="text-right"><button type="submit" class="btn btn-primary btn-md">Pay Now</button></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
