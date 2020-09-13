@@ -61,3 +61,12 @@ body {
 #des {
     font-size: 150%;
 }
+
+.add {
+    color: #4C4C4C;
+}
+
+.add:hover {
+    color: black;
+    text-decoration: none;
+}
