@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Add | Splitz</title>
+    <title>Notifications | Splitz</title>
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -21,44 +21,58 @@
             <a class="navbar-brand mr-auto" href="index.html">&nbsp&nbspSplitz</a>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="notifications.html"><i class="fa fa-envelope fa-lg"></i><sup class="noti">29</sup> Notifications</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="notifications.html"><i class="fa fa-envelope fa-lg"></i><sup class="noti">29</sup> Notifications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-user fa-lg"></i> My Profile</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row row-content justify-content-center">
-            <div class="col-12 text-center">
-                <h4>Enter the details of the borrower</h4><hr style="background-color: #C8D5B9;">
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <h1 class="fon" id="head">Splitz</h1>
+                    <p class="fon" id="des">Keep a record of all small transactions</p>
+                </div>
             </div>
-            <div class="col-12 col-md-8">
-                <form>
-                    <div class="form-group row">
-                        <label for="fname" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="lname" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="amount" class="col-md-2 col-form-label">Amount (₹)</label>
-                        <div class="col-md-10">
-                            <input type="number" class="form-control" id="amount" name="amount" placeholder="Amount">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-12 text-right">
-                            <button type="submit" class="btn btn-primary">Add</button>
-                        </div>
-                    </div>
-                </form>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h3>Notifications</h3><hr style="background-color: #C8D5B9;">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; has asked you to pay &lt;amount&gt;</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left"><button class="btn btn-secondary btn-md">Ask for time</button></td>
+                                <td class="text-center"><button class="btn btn-success btn-md">Already paid</button></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Pay Now</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; has asked for more time</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Okay</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; claims he has already cleared his debt</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Okay</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
