@@ -41,14 +41,15 @@ router.post("/register", function(req, res){
 
 // show register form
 router.get("/login", function(req, res){
-    res.render("login"); 
+    res.send("login"); 
  });
  
  //handle sign up logic
- router.post("/register", function(req, res){
-     var email = ({email: req.body.email});
-     var newUser = new User(email);
-     User.register(newUser, req.body.password, function(err, user){
+ router.post("/login", function(req, res){
+        var email = req.body.email;
+        var password = req.body.password
+        var newUser = new User(email);
+     User.register({email : email}, req.body.password, function(err, user){
          if(err){
              console.log(err);
              
