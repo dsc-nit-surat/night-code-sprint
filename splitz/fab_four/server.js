@@ -60,3 +60,24 @@
 // app.listen(port, (req,res) => {
 //     console.log("Server is running on port " + port);
 // });
+
+var express = require("express"),
+  app = express(),
+  bodyParser = require("body-parser"),
+  mongoose = require("mongoose"),
+  passport = require("passport"),
+  User = require("./models/user");
+
+mongoose.connect("mongodb+srv://admin:fab_four@cluster0.rhxth.gcp.mongodb.net/fab_four"),
+          .then(console.log("Mongo DB connected"));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.set("view engine", "ejs");
+app.use(express.static(__dirname + "/public"));        
+
+
+
+app.use("/", home);
+app.use("/login", login);
+app.use("/register", register);
+app.use("/dashboard", dashboard);
+app.use("/notification", notification);
