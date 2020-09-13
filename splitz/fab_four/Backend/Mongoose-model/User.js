@@ -23,6 +23,16 @@ const UserSchema = new mongoose.Schema({
       type : String
     }
   }],
+  Notification : [
+    {
+      Content : {type : String},
+      date : {
+        type : Date,
+        default : Date.now
+      }
+    }
+  ]
+  ,
   transaction: [{
     user_id : {
       type : String,
