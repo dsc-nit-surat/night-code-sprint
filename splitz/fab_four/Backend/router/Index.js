@@ -27,12 +27,13 @@ router.post("/register", function(req, res){
     console.log(newUser);
     User.findOne({email : email}, (err , user) => {
         if (err){
-            res.send("Register")
+            console.log(err);
         } else {
             if (user){
                 res.send("register")
             } else {
                 newUser.save()
+                res.send("dashboard")
             }
         }
     })
