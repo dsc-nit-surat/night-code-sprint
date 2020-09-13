@@ -33,7 +33,7 @@ router.post("/register", function(req, res){
                 res.render("register")
             } else {
                 newUser.save()
-                res.render("dashboard")
+                res.render("index")
             }
         }
     })
@@ -44,6 +44,13 @@ router.get("/login", function(req, res){
     res.render("login"); 
  });
  
+ 
+// show notifications
+router.get("/notification", function(req, res){
+    res.render("notifications",{}); 
+ });
+ 
+
  //handle sign up logic
  router.post("/login", function(req, res){
         var email = req.body.email;
@@ -55,7 +62,7 @@ router.get("/login", function(req, res){
         } else {
             if (user){
                 if (user.password === password){
-                    res.render("dashboard")
+                    res.render("index")
                 }
                 res.send("login")
             } else {
