@@ -79,7 +79,7 @@ app.use(express.static(__dirname + "/public"));
 const root = require("./Backend/router/Index");
 
 app.get("/" ,(req,res) => {
-    res.send("Home");
+    res.render("add");
 })
 
 app.use("/", root);
