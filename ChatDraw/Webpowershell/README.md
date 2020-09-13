@@ -14,7 +14,7 @@
 </p>
 
 ## :triangular_flag_on_post: Chat-Draw
-//About Application that what problem does it solve
+
     This is an Application build to help students and teachers in an easy way to manage and share data and edit the screen at the same time.
     It would surely help to have a efficient way of communication.
 
