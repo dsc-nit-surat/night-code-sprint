@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Exam Buddy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <section class="main-top">
+        <img src="./../images/logo.jpg" class='main-logo'>
+        <div class="subtitle is-1 main-title">
+            Exam Buddy
+        </div>
+    </section>
+    <div class="container">
+        <button id='button1' class="button is-primary" >Refresh Data</button>
+        <button id='button2' class="button is-info">Store This Paper</button>
+        <div class="tabs is-centered" id='tabs_listening' style="margin-bottom: 0;">
+            <ul>
+                <li value="home">
+                    <a>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <!-- <li value="controls">
+                    <a>
+                        <span>Controls</span>
+                    </a>
+                </li> -->
+                <li value="settings">
+                    <a>
+                        <span>Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id='tabs_main_content'>
+            <div id="Current_Test_Name" style="display: none;">Current test : <span id='Form_Name'></span></div>
+            <div id='home_display'>
+
+                <table class="table" style="width: 100%;margin:0;padding: 0;">
+                    <thead>
+                      <tr>
+                        <th><span title="S.No.">S.No.</span></th>
+                        <th>Test Name</th>
+                        
+                        <th><span title="Points">Organization</span></th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id='Old_Results'>
+                      <!-- <tr>
+                        <th>1</th>
+                        <td><a>Leicester City</a>
+                        </td>
+                        <td>81</td>
+                        <td><button>&times;</button></td>
+                      </tr> -->
+                    </tbody>
+                  </table>
+            </div>
+            <div id='controls_display'>
+                Controls
+            </div>
+            <div id='settings_display'>
+                <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+
+            </div>
+        </div>
+        <!-- <p id="time"></p>
+        <button id='start'>start</button>
+        <button id='stop'>stop</button> -->
+    </div>
+</body>
+<script src="popup.js"></script>
+<script src="tabs.js"></script>
+<link rel="stylesheet" href='loader.css'>
+
+
+</html>
