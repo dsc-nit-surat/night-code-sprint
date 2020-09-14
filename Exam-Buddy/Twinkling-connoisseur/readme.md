@@ -24,7 +24,7 @@ Exam Buddy is a Chrome Extentsion which provides some essential Exam tools which
 
 ### Screenshots
 #### Extension Screenshot
-![Extension](images/extension.jpg.png)
+![Extension](images/extension.jpg)
 ## Timer Screenshot
 ![Timer1](images/timer_readme.png)
 ![Timer2](images/timer.png)
