@@ -1,4 +1,7 @@
 # Exam Buddy
+## Team Name - Twinkling Connoisseur
+### Team Member - Pooja Paliwal [ U19EC063 ]
+### Team Member 2 - Pushpendra Vishwakarma [ U19EE003 ]
 Exam Buddy is a Chrome Extentsion which provides some essential Exam tools which are somewhere missed in our test Platforms like in MS Teams, Google Forms etc.
 ``` We have support on Microsoft Forms, and Google Forms ```
 ## Features [ All Features are active on our Extension ]
