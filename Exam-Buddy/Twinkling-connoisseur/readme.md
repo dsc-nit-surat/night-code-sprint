@@ -29,4 +29,4 @@ Exam Buddy is a Chrome Extentsion which provides some essential Exam tools which
 ![Timer1](images/timer_readme.png)
 ![Timer2](images/timer.png)
 ## AutoSubmit Feature [ These options are automatically filled by Extension, on reload, or after closing browser ]
-![DownloadButton](images/autosubmit.png.png)
+![DownloadButton](images/autosubmit.png)
