@@ -1,6 +1,3 @@
-<img src="images/night-code-sprint.png" title="dscnitsurat" alt="Night Code Sprint">
-
-
 # DSC NIT Surat Night Code Sprint
 > You code 'cause you want to explore and grow and with this, you certainly will.
 

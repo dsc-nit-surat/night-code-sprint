@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    
+    <style>
+        .navbar-dark {
+            background-color: #4C4C4C;
+        }
+        .navbar-brand {
+            font-size: 200%;
+        }
+
+        .counter .counter-lg {
+            top = -24px !important;
+        }
+
+        .row-header {
+            margin: 0px auto;
+            padding: 0px auto;
+        }
+
+        .jumbotron {
+            padding: 70px 30px 70px 30px;
+            margin: 0px auto;
+            background: #C8d5b9;
+        }
+
+        body {
+            padding: 50px 0px 0px 0px;
+            z-index: 0;
+        }
+
+        .row-content {
+            margin: 0px auto;
+            padding: 50px 0px 50px 0px;
+            border-bottom: 1px ridge;
+            min-height: 400px;
+        }
+
+        .cont {
+            font-size: 130%;
+        }
+
+        .noti {
+            background-color: red;
+            color: white;
+            border-radius: 20px 20px 20px 20px;
+            padding: 4px 4px 4px 4px;
+            font-size: 60%;
+        }
+
+        .footer {
+            background-color: #D1C4E9;
+            margin: 0px auto;
+            padding: 20px 0px 20px 0px;
+        }
+
+        .fon {
+            font-family: "Bebas Neue";
+        }
+
+        #head {
+            font-size: 400%;
+        }
+
+        #des {
+            font-size: 150%;
+        }
+
+        .add {
+            color: #4C4C4C;
+        }
+
+        .add:hover {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>Notifications | Splitz</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="index.html">&nbsp&nbspSplitz</a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="notifications.html"><i class="fa fa-envelope fa-lg"></i><sup class="noti">29</sup> Notifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-user fa-lg"></i> My Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <h1 class="fon" id="head">Splitz</h1>
+                    <p class="fon" id="des">Keep a record of all small transactions</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h3>Notifications</h3><hr style="background-color: #C8D5B9;">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; has asked you to pay &lt;amount&gt;</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left"><button class="btn btn-secondary btn-md">Ask for time</button></td>
+                                <td class="text-center"><button class="btn btn-success btn-md">Already paid</button></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Pay Now</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; has asked for more time</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Okay</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="cont text-left">&lt;name&gt; claims he has already cleared his debt</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right"><button class="btn btn-primary btn-md">Okay</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 text-center">
+                    <h5>Our Address</h5>
+                    <address>
+                        305, International Business Complex<br>
+                        Dumas Road, Surat<br>
+                        Gujarat, India<br>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h5>Contact Us</h5>
+                    <i class="fa fa-phone fa-lg"></i> +91 98653 23651<br>
+		            <i class="fa fa-phone fa-lg"></i> +91 261 2226969<br>
+		            <i class="fa fa-envelope fa-lg"></i> <a href="mailto:splitz@gmail.com">splitz@gmail.com</a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="text-center ">
+                        <br><a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <br><p>© Copyright 2020 Splitz</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
