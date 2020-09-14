@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">NoteMe</string>
-    <string name="note_title">Note Title</string>
-    <string name="note_subtitle">Note Subtitle</string>
-    <string name="pick_color">Pick Color</string>
-    <string name="add_image">Add Image</string>
-</resources>
