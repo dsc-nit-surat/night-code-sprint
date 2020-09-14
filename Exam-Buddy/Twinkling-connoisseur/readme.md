@@ -12,6 +12,7 @@ Exam Buddy is a Chrome Extentsion which provides some essential Exam tools which
 3. Click on **Load unpacked** and select directoy in which there is our cloned repository
 4. And You Can see our Extensions on your browser
 
+We had made a sample Google Form, you can check our Extension here as well [Click_Here](https://docs.google.com/forms/d/e/1FAIpQLSfd9addy7tUttQJKV77pSz0UpBkUpQFMu6Mb56DIJOiQWHSdA/viewform)
 
 ## Notes to Consider During the Working with our Extension
 1. Time input in Input fields of Timer is in Minutes, so try to insert value in Minutes
@@ -21,6 +22,7 @@ Exam Buddy is a Chrome Extentsion which provides some essential Exam tools which
 ## Contributors
 * **Pooja Paliwal** - [poojapaliwal](https://github.com/poojapaliwal) [ Admission No. **U19EC063** ]
 * **Pushpendra Vishwakarma** - [pushpendrahpx](https://github.com/Pushpendrahpx) [ Admission No. **U19EE003** ]
+
 
 ### Screenshots
 #### Extension Screenshot
