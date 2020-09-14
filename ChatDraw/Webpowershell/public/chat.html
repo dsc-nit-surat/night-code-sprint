@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" style="padding:0px;margin:0px">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+  <script src="https://kit.fontawesome.com/d8b963639d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.4.456/build/pdf.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>ChatBox App</title>
+</head>
+<body style="height:100%;width:100%;padding:0px;margin:0px;">
+  <div class="mainbo" style="display: flex;height:100%;width:100%;padding:0px;margin:0px">
+    <div class="canva" style="flex:6;padding:0px;margin:0px;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin:0px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <a><i class="fas fa-tools"></i></a>
+        <a class="navbar-brand" href="#" style="color: #667aff">TOOLS</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-link line" href="#" style="color: #667aff">LINE</a>
+            <a class="nav-link circ" href="#" style="color: #667aff">CIRCLE</a>
+            <a class="nav-link rect" href="#" style="color: #667aff">RECTANGLE</a>
+            <a class="nav-link tria" href="#" style="color: #667aff">ELLIPSE</a>  
+            <a class="nav-link tria" href="#" style="color: #667aff" >CLEAR</a>  
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: #667aff" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SELECT COLOR
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">red</a>
+                  <a class="dropdown-item" href="#">maroon</a>
+                  <a class="dropdown-item" href="#">salmon</a>
+                </div>
+              </li>
+              
+              <a href="#" class="nav-link tria" style="color: #667aff" onclick="pdf()">UPLOAD</a>
+          </div>
+        </div>
+      </nav>
+      <canvas id="zap" style="position: absolute;z-index: 10;"></canvas>
+    </div>
+  
+  <div class="chat-container" style="flex:4">
+    <header class="chat-header">
+      <h3>ChatDraw</h1>
+      <a href="index.html" class="btn">Leave Room</a>
+    </header>
+    <main class="chat-main" style="height:470px">
+      <div class="chat-sidebar">
+        <h4><i class="fas fa-comments"></i> Room Name:</h4>
+        <h5 id="room-name"></h5>
+        <br>
+        <br>
+        <h4><i class="fas fa-users"></i> Users</h4>
+        <ul id="users">
+         
+        </ul>
+      </div>
+      <div class="chat-messages">
+				<h3 id="date"></h3>
+        <h3 id="day"></h3>
+      </div>
+    </main>
+    <div class="chat-form-container">
+      <form id="chat-form">
+        <input
+          id="msg"
+          type="text"
+          placeholder="Enter Message"
+          required
+          autocomplete="off"
+        />
+        <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+      </form>
+    </div>
+    </div>
+  </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js" 
+ integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4=" 
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>  
+  
+  <script src="js/index.js"></script>
+  
+
+</body>
+</html>
