@@ -1,6 +1,6 @@
 
 ## Team Name - Twinkling Connoisseur
-### Team Member - Pooja Paliwal [ U19EC063 ]
+### Team Member 1 - Pooja Paliwal [ U19EC063 ]
 ### Team Member 2 - Pushpendra Vishwakarma [ U19EE003 ]
 
 # Exam Buddy
