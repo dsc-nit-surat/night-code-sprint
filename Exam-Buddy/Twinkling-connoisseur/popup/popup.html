@@ -6,16 +6,15 @@
     <link rel="stylesheet" href="popup.css">
 </head>
 
-<body>
+<body style="padding: 0;">
     <section class="main-top">
         <img src="./../images/logo.jpg" class='main-logo'>
         <div class="subtitle is-1 main-title">
             Exam Buddy
         </div>
     </section>
-    <div class="container">
-        <button id='button1' class="button is-primary" >Refresh Data</button>
-        <button id='button2' class="button is-info">Store This Paper</button>
+    <div class="container" style="padding: 5px;">
+        
         <div class="tabs is-centered" id='tabs_listening' style="margin-bottom: 0;">
             <ul>
                 <li value="home">
@@ -36,9 +35,11 @@
             </ul>
         </div>
         <div id='tabs_main_content'>
-            <div id="Current_Test_Name" style="display: none;">Current test : <span id='Form_Name'></span></div>
+            <div id="Current_Test_Name" style="display: none;font-size: 20px;font-weight: 400;">Current test : <span id='Form_Name'></span></div>
+            <hr />
+            <small>These are some of the previuos tests memory stored on your computer</small>
             <div id='home_display'>
-
+                
                 <table class="table" style="width: 100%;margin:0;padding: 0;">
                     <thead>
                       <tr>
@@ -64,10 +65,19 @@
                 Controls
             </div>
             <div id='settings_display'>
-                <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+                
+                <br /><br />
+                <strong>Settings work is needed to be done</strong>
 
             </div>
         </div>
+        <br />
+        <hr />
+        <span>Actions of Each Memory Storage on Home, are not working yet</span>
+        <hr />
+        <span>Hard Options, if things not work automatically</span>
+        <button id='button1' class="button is-primary" >Refresh Data</button>
+        <button id='button2' class="button is-info">Store This Paper</button>
         <!-- <p id="time"></p>
         <button id='start'>start</button>
         <button id='stop'>stop</button> -->

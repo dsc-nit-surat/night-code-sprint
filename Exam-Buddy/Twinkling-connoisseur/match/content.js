@@ -253,8 +253,10 @@ document.querySelectorAll(".freebirdFormviewerViewNumberedItemContainer").forEac
     })
 })
 
-let autoSubmit = ()=>{
+// alert("S")
 
+var inputMinutes = document.createElement("input");
+let autoSubmit = ()=>{
     alert("Going to Submit Now")
     let submitButton = document.querySelector(".appsMaterialWizButtonPaperbuttonLabel");
     submitButton.click();
@@ -337,36 +339,59 @@ function startCountdown() {
 var startButton = document.createElement("button");
 startButton.id = "StartButton"
 startButton.addEventListener("click", () => {
+
+    inputMinutes.disabled = true;
+    startButton.disabled = true;
+    startButton.style.background = "#dedede;"
     console.log("Button clicked.");
      startCountdown();
 });
-var inputMinutes = document.createElement("input");
-startButton.appendChild(document.createTextNode("startCountdown"));
-document.body.appendChild(startButton);
-document.body.appendChild(inputMinutes);
-startButton.style.position = "absolute"
-startButton.style.borderRadius = "15px"
-startButton.style.color = "white"
-startButton.style.fontSize = "25px"
-startButton.style.backgroundColor = "green"
-startButton.style.padding = "15px"
-inputMinutes.style.position = "absolute"
-inputMinutes.style.top = "23px"
-inputMinutes.style.padding = "15px"
-inputMinutes.style.fontSize = "25px"
-inputMinutes.style.borderRadius = "15px"
-inputMinutes.style.width = "150px"
-inputMinutes.style.right = "230px"
-startButton.style.top = "23px"
-startButton.style.right = "15px"
-startButton.setAttribute("value", "Start Countdown");
+
+startButton.classList.add("ourStartButton")
+var mainContainer = document.createElement("div")
+mainContainer.style.position = "fixed";
+mainContainer.classList.add("mainOurContainer");
+mainContainer.style.top = "0px";
+mainContainer.style.right = "0px";
+mainContainer.style.margin = "10px";
+var timer_title = document.createElement("h1");
+mainContainer.style.display = "block";
+timer_title.style.margin = "0 auto";
+timer_title.style.width = "max-content";
+timer_title.innerText = "Exam Timer"
+
+mainContainer.appendChild(timer_title)
+mainContainer.appendChild(document.createElement("br"))
+
+startButton.appendChild(document.createTextNode("Start"));
+mainContainer.appendChild(inputMinutes);
+mainContainer.appendChild(startButton);
+inputMinutes.classList.add("ourInputMinutes");
 inputMinutes.setAttribute("type", "text");
 inputMinutes.setAttribute("id","minutes"); 
+inputMinutes.placeholder = "Enter Time in Minutes, like 1 for 1 min"
 var a= document.createElement("div")
-a.innerHTML = "<div id='container'><div id='inputArea'></div><h1 id='time'>0:00</h1></div>"
-document.body.appendChild(a)
-a.style.position = "absolute"
-a.style.top = "90px"
-a.style.right = "144px"
-a.style.fontSize = "34px"
+a.innerHTML = "<div id='container' style='display:flex;'><div id='inputArea'></div><h1 id='time'>0:00</h1> <h1>mins left</h1></div>";
 
+var alertMessage = document.createElement('div')
+mainContainer.appendChild(document.createElement("br"));
+alertMessage.innerText = "Your test will be auto submitted in last 20 second to avoid late submission"
+var rules = document.createElement("div");
+rules.innerHTML = "<br /><strong style='font-size:14px;'>Exam Buddy Extension will monitor your actions and save it on your computer 💻, so if some mishappening happens during test, we will automatically fill 📝 those options for you, even questions or options are shuffled 🔀 for those as well.</strong>";
+alertMessage.appendChild(document.createElement("br"));
+alertMessage.appendChild(rules)
+alertMessage.style.margin = "2px 0 20px 0"
+mainContainer.appendChild(a);
+mainContainer.style.maxWidth = "400px";
+mainContainer.appendChild(alertMessage)
+
+a.classList.add("timer_text")
+
+document.body.appendChild(mainContainer);
+
+// startButton.addEventListener("click")
+
+
+var styleElement = document.createElement("style");
+styleElement.innerText = `#time::before{content:' ⏱️ ';}#time::after{content:'-'}.timer_text{}.ourInputMinutes:focus,.ourStartButton:focus{box-shadow:0 0 0 5px white, 0 0 0 6px #673AB7;}.ourInputMinutes{transition-duration:0.05s;color:#673AB7;padding:10px;margin-right:10px;font-size:20px;border: 2px solid #673AB7; box-shadow: 0 0 10px #dedede;border-radius:5px;}.activeButton{background:#673AB7;color:white}.ourStartButton{cursor:pointer;border: 2px solid #673AB7;padding: 10px;border-radius: 5px;font-size: 20px;text-transform: capitalize;background: #ffffff;color: #673AB7;font-weight: 200;box-shadow: 0 0 10px #bcbcbc;transition-duration:0.2s;text-transform:capitalize;cursor:pointer;}.ourStartButton:hover{background:#673AB7;color:white;}`;
+document.body.appendChild(styleElement)
