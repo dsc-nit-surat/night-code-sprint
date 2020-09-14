@@ -27,12 +27,8 @@
 
 **For additional help and resources, we have a [reservoir](https://github.com/dsc-nit-surat/reservoir) to help you with the same.**
 
-## Problem Statements (Optional) 
-The problem statements are optional to use and are meant for those who are unable to come up with any identification of problem or solution. You're free to solve this problem with any track you're comfortable with or want to try something new! 
-1. Chatbot for COVID19
-2. Development of online platform for selling old books/equipments
-3. Attention Span Detection in Online Instructor Led Sessions
-4. SVNIT website
+### Upcoming Instructions
+- If you're unable to come up with solving any problem, you'll be provided with 4 to 5 problem statements that are optional to work on. 
 
 ## Tracks
 1. Blockchain
