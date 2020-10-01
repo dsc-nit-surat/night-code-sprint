@@ -1,2 +1,4 @@
 selenium
 discord
+json
+threading
